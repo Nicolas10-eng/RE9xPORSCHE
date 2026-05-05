@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'NeuePlak';
+    src: url('../fonts/NeuePlak-Regular.otf') format('opentype');
+    text-transform: uppercase;
+    
+}
+@font-face {
+    font-family: 'NeuePlakThin';
+    src: url('../fonts/NeuePlak-Thin.otf');
+}
+
+@font-face {
+    font-family: 'NeuePlakSemiBold';
+    src: url('../fonts/NeuePlak-SemiBold.otf');
+}
+
+
+.navbar {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.nav-link {
+    font-family: 'NeuePlak', sans-serif;
+    color: black !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px; 
+    overflow: hidden;
+}
+
+
+.img-fondo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60%; 
+}
+
+.info {
+    text-align: center; 
+    max-width: 800px;   
+    margin: 0 auto;     
+    padding: 40px 20px; 
+}
+
+
+.info h3 {
+    font-family: 'NeuePlakSemiBold', sans-serif;
+    font-size: 52px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.info p {
+    font-family: 'NeuePlakRegular', sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.titulo-card {
+    margin-top: 10px;
+    font-family: 'NeuePlakThin', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 55px;
+    color: rgb(0, 0, 0) !important;
+    text-align: left;
+}
+
+
+.card-text {
+    font-family: 'NeuePlakRegular', sans-serif;
+    font-size: 14px;
+}
+
+.seccion-cards {
+    background-image: url('../img/location_thumb1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 100px 0;
+}
+
+
+
+.seccion-cards {
+    position: relative;
+}
+
+
+.seccion-cards .row {
+    position: relative;
+    z-index: 2;
+}
+
+
+.video-thumb {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 40px;
+}
+
+.video-thumb img {
+    width: 100%;
+    display: block;
+}
+
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 8%;        
+    min-width: 50px;  
+    max-width: 100px; 
+}
+
+
+.video-thumb:hover .play-btn {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-link {
+    position: relative;
+    display: inline-block;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 80px;
+    z-index: 2; 
+}
+
+.texto-video {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.texto-video p {
+    font-family: 'NeuePlakRegular', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.cta {
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'NeuePlakBold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.header-dark {
+    background-color: black;
+    padding: 5px 0;
+}
+.navbar.navbar-dark-custom {
+    background-color: black !important;
+}
+
+.navbar.navbar-dark-custom .nav-link {
+    color: white !important;
+}
+
+.navbar.navbar-dark-custom .nav-link:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+
+.misionvisiom {
+    background-color: black;
+    color: white;
+
+    text-align: left;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.misionvisiom h3 {
+    font-family: 'NeuePlakThin', sans-serif;
+    color: white;
+}
+
+.misionvisiom p {
+    font-family: 'NeuePlakRegular', sans-serif;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.contacto-mapa {
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+}
+
+.titulo-contacto {
+    font-family: 'NeuePlakThin', sans-serif;
+    font-size: 60px;
+    text-align: left;
+}
+
+.subtitulo-contacto {
+    font-family: 'NeuePlakThin', sans-serif;
+    margin-top: 20px;
+}
+
+.texto-contacto {
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.mapa-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-info {
+    background-color: #e6e6e6;
+    padding: 80px 0;
+}
+
+
+.titulo-info {
+    font-family: 'NeuePlakThin', sans-serif;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+.sub-info {
+    font-family: 'NeuePlakThin', sans-serif;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.datos {
+    font-family: 'NeuePlakRegular', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.nota {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+
+.redes-footer {
+    background-color: #e6e6e6;
+    padding: 50px 0;
+}
+
+
+#red {
+    text-align: center;
+}
+
+#red a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+
+    margin: 0 12px;
+
+    background-color: black;
+    border-radius: 50%;
+
+    color: white;
+    font-size: 24px;
+
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+#red a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+
+.footer-porsche {
+    background-color: #e6e6e6;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+.region {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.idioma {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.copy {
+    font-size: 11px;
+    color: #888;
+}
